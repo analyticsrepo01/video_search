@@ -11,10 +11,10 @@ A streamlined Retrieval-Augmented Generation (RAG) system for searching and anal
 - **Optimized Search**: Low similarity threshold for better context retrieval
 - **Ready-to-Use**: Simple functions for immediate video content search
 
-## 📊 Supported Content Types
+## 📊 Available Content Types - ALL types Supported -- just add in prompt
 
-### 🎭 Romance/Drama Series
-- **"Cinta Sedalam Rindu"** episodes with character analysis (Aluna, Galaxy, Ezra, Felicia)
+### 🎭 Romance/Drama Series (Currently added are these -- but any content can be added )
+- **"Cinta Sedalam Rindu"** episodes with character analysis
 - Episode number extraction and character relationship mapping
 - Automatic keyword generation in English and Indonesian
 
@@ -123,7 +123,7 @@ Video Files → Metadata → Direct RAG Upload → Search
 ## 🔧 Technical Details
 
 ### RAG Configuration:
-- **Embedding Model**: `text-multilingual-embedding-002`
+- **Embedding Model**: `text-multilingual-embedding-002` -- Bahasa support
 - **Similarity Threshold**: 0.1 (optimized for better retrieval)
 - **Top-K Results**: 15 (comprehensive context)
 - **Chunk Size**: 1000 tokens with 200 overlap
