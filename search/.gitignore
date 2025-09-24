@@ -1,0 +1,136 @@
+# Video RAG Search - Public Repository
+# Only Rag_search.ipynb, CSV, and JSONL files are published
+
+# Ignore all other notebooks
+*.ipynb
+!Rag_search.ipynb
+
+# Ignore all Python files and scripts
+*.py
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore all folders except root
+analysis_backups/
+saved_video_analysis/
+temp_rag_uploads/
+video/
+video1/
+.ipynb_checkpoints/
+.cache/
+.config/
+.docker/
+.embedchain/
+.gsutil/
+.jupyter/
+.local/
+.pub-cache/
+.streamlit/
+calls_phkl/
+claim_agent/
+code-agent/
+development/
+functions/
+insurance_doc/
+mlOps_feb25/
+mlops-pipeline2/
+my_ibc_config/
+nltk_data/
+prompt_optimizer_tool/
+safe-ibkr/
+snap/
+
+# Ignore specific files that shouldn't be published
+test.md
+golden_dataset_improvement_summary.md
+streamlined_video_rag.py
+extract_video_analysis.py
+backup_analysis.py
+
+# Ignore system and config files
+.DS_Store
+.vscode/
+.idea/
+*.log
+*.tmp
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore authentication and sensitive files
+*.json
+!*.jsonl
+*.key
+*.pem
+credentials.json
+service-account.json
+.claude.json*
+.bash_history
+.ssh/
+.gnupg/
+
+# Ignore large files and outputs - NO VIDEO FILES PUBLISHED
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore all video files - NOT PUBLISHED FOR PRIVACY/SIZE
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+*.m4v
+*.3gp
+*.wmv
+
+# Ignore audio files
+*.wav
+*.mp3
+*.flac
+*.aac
+*.ogg
+
+# Keep CSV and JSONL files for datasets
+!*.csv
+!*.jsonl
+
+# Ignore backup and temporary files
+*~
+*.bak
+*.swp
+*.swo
+*backup*
+*temp*
+
+# Ignore Jupyter specific
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# Ignore package files
+*.egg-info/
+dist/
+build/
+
+# Ignore OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignore editor files
+*.sublime-project
+*.sublime-workspace
+.vscode/
+*.code-workspace

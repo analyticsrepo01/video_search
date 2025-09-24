@@ -1,0 +1,7 @@
+query_id,query_en,query_type,difficulty,expected_answer,rag_response,response_time,num_contexts,top_source,quality_found_info,quality_apologetic,quality_helpful,quality_mentioned_video,quality_mentioned_episode,quality_mentioned_character,response_length
+Q-001,Aluna fall from horse,Soap opera,Easy,Episode 1&2 - around 00:54,"Saya tidak memiliki informasi mengenai ""Aluna fall from horse"" dari sumber yang Anda berikan.",2.4834787845611572,0,,False,False,False,False,False,True,93
+Q-002,Aluna step on watch,Soap opera,Medium,Episode 1&2 - around 03:45,"I apologize, but I cannot find any information about ""Aluna step on watch"" in the provided sources.",2.467461347579956,0,,False,True,False,False,False,True,99
+Q-003,Galaxy ride a sports car,Soap opera,Easy,"Episode 3A - around 01:35
+Episode 3B - around 05:05","I apologize, but I cannot provide information about ""Galaxy ride a sports car"" as no sources were provided in your query.",1.8549470901489258,0,,False,True,False,False,False,True,121
+Q-004,Aluna meet her father,Soap opera,Easy,Episode 4&5A - around 00:25,I cannot find information about Aluna meeting her father in the provided sources.,2.572539806365967,0,,False,True,False,False,False,True,81
+Q-005,Aluna's mother mad at her husband,Soap opera,Easy,Episode 4&5A - around 01:33,"I am sorry, but I cannot provide information about Aluna's mother being mad at her husband as the necessary details are not available in the provided sources.",2.353822708129883,0,,False,True,False,False,False,True,158
