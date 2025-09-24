@@ -54,6 +54,8 @@ golden_dataset_improvement_summary.md
 streamlined_video_rag.py
 extract_video_analysis.py
 backup_analysis.py
+comprehensive_video_analysis.json
+bk_code/
 
 # Ignore system and config files
 .DS_Store
